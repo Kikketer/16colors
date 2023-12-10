@@ -46,7 +46,7 @@
       }
 
       // If it's just too large (many colors?) it'll be too slow
-      if (file.size > 3000) {
+      if (file.size > 4000) {
         return reject('File is too large')
       }
 
